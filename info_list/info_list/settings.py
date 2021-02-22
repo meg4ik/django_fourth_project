@@ -26,9 +26,9 @@ TEMPLATE_DIR =  os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = '!fgx(f=+^ib)h^cu+8b7m6!dp#$junsou%y6okazifw%n@muiw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['olx-find.herokuapp.com', '127.0.0.1:8000']
 
 
 # Application definition
